@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 200px; */
+  height: 20vh;
+  position: sticky;
+  z-index: 100;
+  left: -30;
+}
+.logo {
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 4px 4px  rgb(0, 0, 0);
+  width: 100px;
+  height: 45px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+.yellow {
+  background: #ffc400;
+  border: 2px solid #000;
+  width: 295px;
+  height: 42px;
+  position: relative;
+  border-radius: 60px;
+ 
+}
+.flux {
+  position: absolute;
+  background: #fff;
+  width: 290px;
+  height: 39px;
+  border-radius: 60px;
+  border: 2px solid #000;
+  z-index: 1;
+  margin-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+.transparent {
+  width: 124px;
+  z-index: 1;
+  position: absolute;
+ background: #855aaf;
+ border: 2px solid #000;
+ border-radius: 25px;
+ height: 34px;
+ margin-top: -3px;
+ margin-right: 5px;
+ color: #fff;
+ font-size: 12px;
+ font-weight: 500;
+ 
+}
+.now-button {
+  position: relative;
+  width: 119px;
+  height: 37px;
+  border: 2px solid #000;
+  background: #fff;
+  border-radius: 25px;
+  margin-left: 8px;
+ 
+ 
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height: 250px;
+  border: 2px solid black;
+  box-shadow: 7px 7px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.eyes h1 {
+  font-size: 59px;
+  text-align: center;
+}
