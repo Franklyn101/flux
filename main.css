@@ -3,16 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+.background {
+  background: url(https://iflux.app/assets/img/background.55f7ca2c.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 40px;
+}
 
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* gap: 200px; */
-  height: 20vh;
-  position: sticky;
+  gap: 190px;
+  top: 0;
+  position: fixed;
   z-index: 100;
   left: -30;
+  margin-top: 20px;
 }
 .logo {
   background: #fff;
@@ -81,6 +92,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .eyes {
@@ -88,13 +100,93 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 700px;
+ max-width: 740px;
   height: 250px;
   border: 2px solid black;
   box-shadow: 7px 7px rgb(0, 0, 0);
   border-radius: 10px;
+  margin-top: 170px;
 }
 .eyes h1 {
   font-size: 59px;
   text-align: center;
+}
+
+.country-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.countries {
+  all: unset;
+  border: 2px solid #000;
+  background: #855aaf;
+  width: 270px;
+  height: 40px;
+  border-radius: 25px;
+  position: relative;
+}
+.countries::after {
+  content: "";
+
+    border: 2px solid #000;
+    border-radius: 54px;
+    background: #fff;
+    width: 270px;
+    height: 40px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -17px;
+    margin-left: 2px;
+}
+.countries:hover {
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: all .2s ease;
+}
+.countries::after:hover {
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: all .2s ease;
+}
+.sponsor {
+  width: 900px;
+  height: 150px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin-top: 70px;
+}
+.sponsor::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  /* bottom:  0; */
+  margin-top: 134px;
+  z-index: -1;
+  height: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(252,97,144,.5);
+  transform: translate(-50%,100%);
+  border: 2px solid #000
+}
+.bank-info {
+  background-color:  #fdfcfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 70px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+.info {
+  width: 200px;
+  height: 300px;
+  border: 2px solid #000;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 8px 8px #000;
 }
