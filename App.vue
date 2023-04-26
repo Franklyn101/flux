@@ -182,18 +182,32 @@ import HelloWorld from './components/HelloWorld.vue'
 
 </div>
 <section class="download">
-<div>
+<div class="dow">
   <h5>GET STARTED</h5>
   <h1>Download the Flux
 App today!</h1>
 <p>Find out what Financial Freedom looks like.</p>
-<span>
+
+<span class="stores">
   <a href=""><img src="https://iflux.app/assets/static/apple.eb6fe9a.fe671778222c783145618b73e61a3e2e.png" alt=""></a>
  <a href=""><img src="https://iflux.app/assets/static/google.e780801.9f1fdc0d3cdc5a368453d774a4baaabb.png" alt=""></a>
+
 </span>
+</div>
+<div class="round">
+  <img src="https://iflux.app/assets/static/globe.f9dc2dc.c4fe4c2a24e2c9a2fce1ec3ced35cd89.png" alt="">
 </div>
 
 </section>
+<div class="blue">
+  <marquee loop="loop" behavior="alternate">
+    <div class="marquee">
+    <div class="cash">Cash Beyond Borders <span class="dot1"></span></div>
+    <div class="cash">Cash Beyond Borders <span class="dot2"></span></div>
+  </div>
+    
+  </marquee>
+</div>
 
 
   <RouterView />
