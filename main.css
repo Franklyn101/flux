@@ -217,8 +217,13 @@ margin-top: 10px;
   height: 40px;
   border-radius: 25px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
 }
-.countries::after {
+ .countries::after {
     content: "";
     border: 2px solid #000;
     border-radius: 54px;
@@ -227,17 +232,19 @@ margin-top: 10px;
     height: 40px;
     position: absolute;
     z-index: -1;
-    margin-top: -17px;
+    margin-top: 10px;
     margin-left: 2px;
-}
+} 
 .countries:hover {
-  padding-left: 50px;
-  padding-right: 50px;
+  gap: 30px;
   transition: all .3s ease;
 }
-.countries::after:hover {
-  padding-left: 50px;
-  padding-right: 50px;
+/* .countries ::after:hover {
+  width: 100px;
+  transition: all .2s ease;
+} */
+.countries:hover ::after{
+  width: 100px;
   transition: all .2s ease;
 }
 .sponsor {
@@ -387,13 +394,18 @@ margin-top: 10px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   width: 150px;
-  line-height: 20px;
+  line-height: 25px;
+}
+.info h3 {
+  margin-right: 107px;
+
 }
 .send {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  padding-top: 170px;
 }
 .send img {
   width: 40%;
@@ -403,11 +415,15 @@ margin-top: 10px;
 
 .send-info {
   width: 400px;
-  height: 300px;
+  height: 340px;
   border-radius: 16px;
   border: 2px solid #000;
   position: relative;
   background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
 }
 .send-info::after {
@@ -421,4 +437,215 @@ margin-top: 10px;
   height: 100%;
   position: absolute;
   z-index: -2;
+}
+.send-info h1 {
+  letter-spacing: -3px;
+  font-size: 37px;
+  font-weight: 800;
+  width: 270px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.send-info p {
+  width: 270px;
+  line-height: 1.4;
+  padding-top: 12px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+
+}
+.send-info h5 {
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin-right: 230px;
+
+
+}
+.sta {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: -240px;
+  position: absolute;
+  margin-right: 150px;
+  
+}
+.send2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 170px;
+}
+
+.send2 img {
+  width: 400px;
+  height: 400px;
+}
+.send-info2 {
+  width: 400px;
+  height: 340px;
+  border-radius: 16px;
+  border: 2px solid #000;
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.send-info2::after {
+  content: "";
+  right: 10px;
+  top: 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background: #272429;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.send-info2 h1 {
+  letter-spacing: -3px;
+  font-size: 37px;
+  font-weight: 800;
+  width: 270px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.send-info2 p {
+  width: 270px;
+  line-height: 1.4;
+  padding-top: 12px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+
+}
+.send-info2 h5 {
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin-right: 230px;
+
+
+}
+.sta {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: -240px;
+  position: absolute;
+  margin-right: 150px;
+}
+
+.send3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 170px;
+}
+
+.send3 img {
+  width: 300px;
+  height: 300px;
+}
+.send-info3 {
+  width: 400px;
+  height: 340px;
+  border-radius: 16px;
+  border: 2px solid #000;
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.send-info3::after {
+  content: "";
+  right: 10px;
+  top: 10px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background: #272429;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.send-info3 h1 {
+  letter-spacing: -3px;
+  font-size: 37px;
+  font-weight: 800;
+  width: 270px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.send-info3 p {
+  width: 270px;
+  line-height: 1.4;
+  padding-top: 12px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+
+}
+.send-info3 h5 {
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin-right: 230px;
+
+
+}
+.download {
+  background-image: url("https://iflux.app/assets/img/background.5ff06ebf.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: none;
+  width: 100%;
+  margin-top: 200px;
+  height: 380px;
+  padding-bottom: 40px;
 }

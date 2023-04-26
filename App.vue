@@ -48,7 +48,15 @@ import HelloWorld from './components/HelloWorld.vue'
     
   </section>
   <div class="country-buttons">
-    <button class="countries"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="globe" data-v-507d6d44=""><path d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm7.742 10.427v.335a.75.75 0 01-.415.671l-.745.373a.749.749 0 01-.751-.047l-.881-.587a.751.751 0 00-.653-.088l-.128.043a.75.75 0 00-.387 1.127l.641.961a.749.749 0 00.624.334h.4a.75.75 0 01.75.75v.549a.751.751 0 01-.15.45l-.907 1.209a.754.754 0 00-.14.31l-.208 1.1a.752.752 0 01-.23.414 7.723 7.723 0 00-1.21 1.411l-.63.946a1.343 1.343 0 01-2.318-.144A3.818 3.818 0 0112 18.837v-1.442a.75.75 0 00-.75-.75H10a2.643 2.643 0 01-2.643-2.643v-.68a2.644 2.644 0 011.057-2.115l1.335-1a2.645 2.645 0 011.586-.529h.043a2.638 2.638 0 011.182.279l.712.356a.749.749 0 00.572.041l2.289-.763a.75.75 0 00-.237-1.461h-.488a.75.75 0 01-.53-.22l-.335-.335a.75.75 0 00-.53-.22h-4.36a.75.75 0 01-.75-.75v-.214a.75.75 0 01.568-.728l.7-.175a.751.751 0 00.442-.312L11 4.591a.749.749 0 01.624-.334H12.8a.75.75 0 00.75-.75v-1.05a9.691 9.691 0 017.835 7.22h-.892a.75.75 0 00-.751.75z" fill="#855aaf"></path></svg> countries we support <svg xmlns="http://www.w3.org/2000/svg" width="94" height="34" viewBox="0 0 94 34">
+    <button class="countries">
+      <span style="display: flex; align-items: center; justify-content: center; font-size: 12px; color: #fff; gap: 10px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="globe" data-v-507d6d44=""><path d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm7.742 10.427v.335a.75.75 0 01-.415.671l-.745.373a.749.749 0 01-.751-.047l-.881-.587a.751.751 0 00-.653-.088l-.128.043a.75.75 0 00-.387 1.127l.641.961a.749.749 0 00.624.334h.4a.75.75 0 01.75.75v.549a.751.751 0 01-.15.45l-.907 1.209a.754.754 0 00-.14.31l-.208 1.1a.752.752 0 01-.23.414 7.723 7.723 0 00-1.21 1.411l-.63.946a1.343 1.343 0 01-2.318-.144A3.818 3.818 0 0112 18.837v-1.442a.75.75 0 00-.75-.75H10a2.643 2.643 0 01-2.643-2.643v-.68a2.644 2.644 0 011.057-2.115l1.335-1a2.645 2.645 0 011.586-.529h.043a2.638 2.638 0 011.182.279l.712.356a.749.749 0 00.572.041l2.289-.763a.75.75 0 00-.237-1.461h-.488a.75.75 0 01-.53-.22l-.335-.335a.75.75 0 00-.53-.22h-4.36a.75.75 0 01-.75-.75v-.214a.75.75 0 01.568-.728l.7-.175a.751.751 0 00.442-.312L11 4.591a.749.749 0 01.624-.334H12.8a.75.75 0 00.75-.75v-1.05a9.691 9.691 0 017.835 7.22h-.892a.75.75 0 00-.751.75z" fill="#fff"></path></svg>
+      countries we support
+    </span>
+
+
+    <span style="display: flex; align-items: center; justify-content: center;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="70" height="30" viewBox="0 0 94 34">
   <g id="Group_790" data-name="Group 790" transform="translate(-878 -77)">
     <g id="Group_662" data-name="Group 662" transform="translate(-40)">
       <circle id="Ellipse_131" data-name="Ellipse 131" cx="14" cy="14" r="14" transform="translate(921 80)" fill="#fff" stroke="#fff" stroke-width="6"/>
@@ -101,7 +109,11 @@ import HelloWorld from './components/HelloWorld.vue'
     </g>
   </g>
 </svg>
- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-primary" data-v-507d6d44=""><line x1="5" y1="12" x2="19" y2="12" data-v-507d6d44=""></line><polyline points="12 5 19 12 12 19" data-v-507d6d44=""></polyline></svg></button>
+<span style="font-weight: 400px;font-size: 8px; color: #000; border-radius: 100px; background: #fff; width: 22px; height: 22px; display: flex;justify-content: center; align-items: center;">+17</span>     
+
+  </span>
+
+  </button>
   </div>
 
 <div class="sponsor">
@@ -132,17 +144,56 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
   <div class="info">
     <div class="square4"></div>
-    <H3>Invest<span style="background-color: #855aff;width: 4px; height: 4px; position: absolute;border-radius: 100%;margin-top: 12px;"></span></H3>
+    <h3>Invest<span style="background-color: #855aff;width: 4px; height: 4px; position: absolute;border-radius: 100%;margin-top: 12px;"></span></H3>
     <p>Buy 90+ cryptos, store cash in dollars or euros for a fixed duration until maturity.</p>
   </div>
 </section>
 <div class="send-section">
 <div class="send">
-  <div class="send-info"></div>
+ 
+
+  <div class="send-info">
+    <h5>send</h5>
+  <h1>Send cash to anyone <span style="color: #ffc400;">instantly.</span></h1>
+  <p>Seamlessly send and receive money using mobile money, Flux wallet, or direct bank account from the US, UK, China, Japan and up to 40+ countries globally within 5 to 10 minutes.</p>
+  <img class="sta" src="https://iflux.app/assets/static/yellow_star.afb6620.9fdc29f2640ddaf497d7ed586eb3293d.png">
+</div>
   <img src="https://iflux.app/assets/static/send.4c53a6d.f8909fc3bef8b18b800faf028fcf3ced.png">
+</div>
+<div class="send2">
+  <img src="https://iflux.app/assets/static/virtual_cards.c09d7f9.e03ac75d372c9a1e3a99224654c701cc.png">
+
+<div class="send-info2">
+  <h5>send</h5>
+  <h1>Virtual Dollar cards to spend <span style="color: #855aff;">anywhere.</span></h1>
+    <p>Easily create, freeze, unfreeze, terminate Virtual Dollar Cards that can be used on your favourite websites to shop, and pay for subscriptions. Enjoy secure online payments.</p>
+   <img class="sta" src="https://iflux.app/assets/static/purple_star.afb6620.44d8c781b3e7217b14eaa3081bfd463b.png">
+</div>
+</div>
+<div class="send3">
+  <div class="send-info3">
+    <h5>Bank</h5>
+    <h1>Local & International<span style="color: #00a7ff;"> money transfers.</span></h1>
+    <p>Enjoy unlimited free transfers to all local banks with no account maintenance charges or hidden fees, just send money to anyone for free using Flux!</p>
+    <img class="sta" src="https://iflux.app/assets/static/blue_star.afb6620.e9f259e1af3537bc0bc6ce6e09c94e49.png">
+  </div>
+  <img src="https://iflux.app/assets/static/bank.00af337.b6a2926eb691556e295e0376279f9587.png">
 </div>
 
 </div>
+<section class="download">
+<div>
+  <h5>GET STARTED</h5>
+  <h1>Download the Flux
+App today!</h1>
+<p>Find out what Financial Freedom looks like.</p>
+<span>
+  <a href=""><img src="https://iflux.app/assets/static/apple.eb6fe9a.fe671778222c783145618b73e61a3e2e.png" alt=""></a>
+ <a href=""><img src="https://iflux.app/assets/static/google.e780801.9f1fdc0d3cdc5a368453d774a4baaabb.png" alt=""></a>
+</span>
+</div>
+
+</section>
 
 
   <RouterView />
